@@ -1,6 +1,7 @@
 # prometheus-pushgateway-pushdata
 
 - how to run
+
   $ cat <<EOF | curl --data-binary @- http://localhost:9091/metrics/job/brandon-test/instance/192.168.1.16
     api_calls 2
     EOF
